@@ -8,8 +8,13 @@
     <title>Contact page</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <script>src="{% static 'bootstrap/js/bootstrap.min.js'%}"</script>
 </head>
 <body>
+<a href="{% url 'about' %}" class="btn btn-dark">About</a>
+<a href="{% url 'contact' %}" class="btn btn-primary">Contact</a>
+<a href="{% url 'home' %}" class="btn btn-warning">Home page</a>
 <h1>Contact Us!</h1>
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias cumque maiores similique suscipit tenetur? Ad culpa cum cumque, fugiat harum in officiis quae sint. Commodi consequatur deserunt ducimus minima provident!</span><span>Accusamus accusantium adipisci consequatur corporis debitis dolor ea enim fugiat illum inventore iusto labore maiores modi, neque, optio placeat quos repellat repudiandae rerum sunt unde vitae voluptate! Deserunt, doloribus, perspiciatis?</span><span>Accusantium aliquam aperiam corporis dolore dolorum enim, et eveniet itaque magnam minus necessitatibus non nulla praesentium quas saepe sapiente tenetur, unde vel voluptatem voluptatibus. Eos modi nam odio provident ut!</span></p>
 <h2>Additional Information</h2>
